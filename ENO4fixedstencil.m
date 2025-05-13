@@ -43,7 +43,7 @@ plot(x, RemoveGhosts(u_ml), 'm-', 'LineWidth', 1.5); hold on;
 %plot(x, RemoveGhosts(u_r), 'g-', 'LineWidth', 1.5);
 xlabel('x');
 ylabel('u');
-legend('Exact Solution','Stencil 2(Middle Left)','Stencil 3 (Middle Right)','Stencil 4 (Right)');
+legend('Exact Solution','Stencil 1(Left)','Stencil 2(Middle Left)','Stencil 3 (Middle Right)','Stencil 4 (Right)');
 title('Fixed Stencil approx');
 grid on;
 
