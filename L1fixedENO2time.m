@@ -1,7 +1,7 @@
 % Parameters matching Figure 2d from the paper
 L = pi;           % Domain length
 N = 200;          % Number of grid points
-CFL = 0.5;        % CFL number
+CFL = 0.75;        % CFL number
 dx = 2*L/N;       % Grid spacing
 dt = CFL*dx;      % Time step
 T_final = 5;    % Final time
@@ -72,14 +72,14 @@ function L_u = compute_flux(u, dx, stencil_func)
     N = length(u); 
     flux = zeros(1, N);
 
-    for i = 3:N-1
+    for i = 3:N
         % Use the specified stencil
         uL = stencil_func(u, i-1);
         flux(i) = uL; % Upwind flux
     end
 
     L_u = zeros(1, N);
-    for j = 3:N-2
+    for j = 3:N-1
         L_u(j) = -(1/dx) * (flux(j+1) - flux(j));
     end
     L_u = apply_periodic_bc(L_u);
