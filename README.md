@@ -11,15 +11,14 @@ Figure 3.4- ENO4URK4.m<br />
 Figure 3.5- L1errorENO4.m<br />
 Figure 3.6- L1errorENO4.m<br />
 Figure 3.7- L1errorENO4time.m<br />
-Figure 4.1- ENO2fixedstencil.m<br />
-Figure 4.2- ENO2fixedstencil.m<br />
-Figure 4.3- ENO2fixedstencil.m<br />
-Figure 4.4- L1fixedENO2time.m<br />
-Figure 4.5- ENO3fixedstencil.m<br />
-Figure 4.6- ENO3fixedstencil.m<br />
-Figure 4.7- L1fixedENO3time.m<br />
-Figure 4.8- ENO4fixedstencil.m<br />
-Figure 4.9- ENO4fixedstencil.m<br />
-Figure 4.10- ENO4fixedstencil.m<br />
-Figure 4.11- L1fixedENO4time.m<br />
-Figure 4.12- stencilpickENO4.m
+Figure 5.1- ENO2fixedstencil.m<br />
+Figure 5.2- ENO2fixedstencil.m<br />
+Figure 5.3- ENO2fixedstencil.m<br />
+Figure 5.4- L1fixedENO2time.m<br />
+Figure 5.5- ENO3fixedstencil.m<br />
+Figure 5.6- ENO3fixedstencil.m<br />
+Figure 5.7- L1fixedENO3time.m<br />
+Figure 5.8- ENO4fixedstencil.m<br />
+Figure 5.9- L1fixedENO4time.m<br />
+Figure 5.10- ENO4fixedstencil.m<br />
+Figure 5.11- stencilpickENO4.m
