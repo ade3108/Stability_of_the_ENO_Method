@@ -1,10 +1,10 @@
 % Parameters matching Figure 2d from the paper
 L = pi;           % Domain length
 N = 200;          % Number of grid points
-CFL = 0.5;        % CFL number
+CFL = 0.75;        % CFL number
 dx = 2*L/N;       % Grid spacing
 dt = CFL*dx;      % Time step
-T_final = 6.5;    % Final time
+T_final = 2.1;    % Final time
 nt = round(T_final/dt);  % Number of time steps
 x = linspace(-L + dx/2, L - dx/2, N); % Cell centers
 
