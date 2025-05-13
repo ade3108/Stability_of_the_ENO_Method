@@ -3,9 +3,9 @@ L = pi; % Domain length
 N = 200; % Number of grid points
 dx = 2*L/N; % Grid spacing
 x = linspace(-L + dx/2, L - dx/2, N); % Cell centers
-CFL = 0.5; % CFL number
+CFL = 0.75; % CFL number
 dt = CFL*dx; % Time step
-T = 0.4; % Final time
+T = 3.4; % Final time
 nt = round(T / dt); % Number of time steps
 
 %u0 = @(x) sin(x).^4; % Initial condition (cell averages, including ghost cells)
