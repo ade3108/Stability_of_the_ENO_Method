@@ -5,7 +5,7 @@ dx = 2*L/N; % Grid spacing
 x = linspace(-L + dx/2, L - dx/2, N); % Cell centers
 CFL = 0.5; % CFL number
 dt = CFL*dx; % Time step
-T = 3; % Final time
+T = 2.1; % Final time
 nt = round(T / dt); % Number of time steps
 
 %u0 = @(x) sin(x).^4; % Initial condition (cell averages, including ghost cells)
